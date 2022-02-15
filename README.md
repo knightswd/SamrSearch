@@ -45,13 +45,13 @@ authentication:
 
 net user windows8 /domain: `python3 samrsearch.py windows.local/test:aaa@172.16.178.9 -username "windows8" `
 
-![image-20220215190209134](./README/image-20220215190209134.png)
+![image-20220215190209134](./ReadMe/image-20220215190209134.png)
 
 
 
 net group "Domain Admins" /domain:`python3 samrsearch.py windows.local/test:aaa@172.16.178.9 -groupname "Domain Admins"`
 
-![image-20220215190500778](./README/image-20220215190500778.png)
+![image-20220215190500778](./ReadMe/image-20220215190500778.png)
 
 
 
@@ -59,4 +59,4 @@ With default ,it will dump all user info
 
 `python3 samrsearch.py windows.local/test:aaa@172.16.178.9 `
 
-![image-20220215190645948](./README/image-20220215190645948.png)
+![image-20220215190645948](./ReadMe/image-20220215190645948.png)
